@@ -1,0 +1,85 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #434B5B;
+   padding: 20px 25px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview {
+    border-radius: 3px;
+}
+
+.overview h2 {
+    background-color: #F3F4F6;
+    color: #434B5B;
+    font-size: 20px;
+    border: 1px solid #D6D9E1;
+    padding: 10px;
+}
+
+
+.overview table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.overview th, .overview td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #D6D9E1;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.badge-learning {
+    background-color: #C50;
+}
+
+
+.badge-active {
+    background-color: #46D4B2;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.stats .stat-value {
+    color: #C50;
+    font-weight: bold;
+}
+
+
+.stat-title {
+    color: #262641;
+    font-size: 16px;
+    font-weight: bold;
+}
